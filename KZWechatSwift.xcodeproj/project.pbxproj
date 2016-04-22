@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A8AC191CCA31520023C30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8AC181CCA31520023C30E /* AppDelegate.swift */; };
+		68A8AC1B1CCA31520023C30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8AC1A1CCA31520023C30E /* ViewController.swift */; };
+		68A8AC1E1CCA31520023C30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A8AC1C1CCA31520023C30E /* Main.storyboard */; };
+		68A8AC201CCA31520023C30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A8AC1F1CCA31520023C30E /* Assets.xcassets */; };
+		68A8AC231CCA31520023C30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A8AC211CCA31520023C30E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68A8AC151CCA31520023C30E /* KZWechatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZWechatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A8AC181CCA31520023C30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68A8AC1A1CCA31520023C30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68A8AC1D1CCA31520023C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68A8AC1F1CCA31520023C30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68A8AC221CCA31520023C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68A8AC241CCA31520023C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68A8AC121CCA31520023C30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A8AC0C1CCA31520023C30E = {
+			isa = PBXGroup;
+			children = (
+				68A8AC171CCA31520023C30E /* KZWechatSwift */,
+				68A8AC161CCA31520023C30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68A8AC161CCA31520023C30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A8AC151CCA31520023C30E /* KZWechatSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A8AC171CCA31520023C30E /* KZWechatSwift */ = {
+			isa = PBXGroup;
+			children = (
+				68A8AC181CCA31520023C30E /* AppDelegate.swift */,
+				68A8AC1A1CCA31520023C30E /* ViewController.swift */,
+				68A8AC1C1CCA31520023C30E /* Main.storyboard */,
+				68A8AC1F1CCA31520023C30E /* Assets.xcassets */,
+				68A8AC211CCA31520023C30E /* LaunchScreen.storyboard */,
+				68A8AC241CCA31520023C30E /* Info.plist */,
+			);
+			path = KZWechatSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A8AC141CCA31520023C30E /* KZWechatSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A8AC271CCA31520023C30E /* Build configuration list for PBXNativeTarget "KZWechatSwift" */;
+			buildPhases = (
+				68A8AC111CCA31520023C30E /* Sources */,
+				68A8AC121CCA31520023C30E /* Frameworks */,
+				68A8AC131CCA31520023C30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZWechatSwift;
+			productName = KZWechatSwift;
+			productReference = 68A8AC151CCA31520023C30E /* KZWechatSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68A8AC0D1CCA31520023C30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯康柱";
+				TargetAttributes = {
+					68A8AC141CCA31520023C30E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 68A8AC101CCA31520023C30E /* Build configuration list for PBXProject "KZWechatSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68A8AC0C1CCA31520023C30E;
+			productRefGroup = 68A8AC161CCA31520023C30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A8AC141CCA31520023C30E /* KZWechatSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68A8AC131CCA31520023C30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A8AC231CCA31520023C30E /* LaunchScreen.storyboard in Resources */,
+				68A8AC201CCA31520023C30E /* Assets.xcassets in Resources */,
+				68A8AC1E1CCA31520023C30E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A8AC111CCA31520023C30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A8AC1B1CCA31520023C30E /* ViewController.swift in Sources */,
+				68A8AC191CCA31520023C30E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68A8AC1C1CCA31520023C30E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A8AC1D1CCA31520023C30E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68A8AC211CCA31520023C30E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A8AC221CCA31520023C30E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68A8AC251CCA31520023C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68A8AC261CCA31520023C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68A8AC281CCA31520023C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZWechatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houkangzhu.KZWechatSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68A8AC291CCA31520023C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZWechatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houkangzhu.KZWechatSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68A8AC101CCA31520023C30E /* Build configuration list for PBXProject "KZWechatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A8AC251CCA31520023C30E /* Debug */,
+				68A8AC261CCA31520023C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A8AC271CCA31520023C30E /* Build configuration list for PBXNativeTarget "KZWechatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A8AC281CCA31520023C30E /* Debug */,
+				68A8AC291CCA31520023C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68A8AC0D1CCA31520023C30E /* Project object */;
+}
